@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Muli:300,400,700&display=swap');
+font-family: 'Muli', sans-serif;
+font-family: 'Lora', serif;
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	color: #52575d;
+}
+.header{
+	background-color: #fff;
+}
+.logo{
+	font-family: 'Muli', sans-serif;
+	font-weight: 700;
+	color: #222222;
+	text-decoration: none;
+}
+.logo:hover{
+	text-decoration: none;
+	color: #f72464;
+}
+.nav-link{
+	font-family: 'Muli', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #52575d;
+	margin-right: 30px;
+}
+.nav-link:hover, .nav-link:active, .nav-link:focus{
+	text-decoration: none;
+	color: #f72464;
+}
+.cart{
+	position: relative;
+}
+.cart-number{
+	background-color: #f72464;
+	width: 19px;
+	height: 19px;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 1px;
+	position: absolute;
+	left: 22px;
+	top: 16px;
+}
+
+.new-products{
+	height: 700px;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.new-products .container{
+	position: relative;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.new-products-bg{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 47%;
+	overflow: hidden;
+	background-color: #fff;
+	background-image: url(../img/girl.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	z-index: -1;
+}
+.news-content{
+	width: 750px;
+	position: absolute;
+}
+.news-title{
+	font-size: 80px;
+	font-weight: 500;
+	color: #222;
+	margin-bottom: 25px;
+}
+.news-text{
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	margin-top: 15px;
+}
+.news-btn a{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	background-color: #f72464;
+	padding: 10px 45px;
+	display: inline-block;
+	border-radius: 3px;
+	margin-top: 50px;
+  	box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.25) ;
+}
+.news-btn a:hover{
+	text-decoration: none;
+	color: #fff;
+	background-color: #52575d;
+	box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.25);
+}
+.title{
+	font-size: 35px;
+	color: #222;
+	text-align: center;
+	margin-top: 100px;;
+}
+.text{
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.title-products{
+	color: #222;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 10px;
+}
+.cost-products{
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 50px;
+}
+.prise{
+	font-family: 'Muli', sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	text-decoration: line-through;
+}
+.prise-now{
+	font-family: 'Muli', sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	color: #f72464;
+}
+.btn-more{
+	padding: 15px 47px;
+	border: 1px solid #f72464;
+	font-size: 14px;
+	margin-top: 70px;
+	text-align: center;
+	border-radius: 3px;
+	display: inline-flex;
+	margin-left: 70px;
+}
